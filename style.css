@@ -1,0 +1,44 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+  padding: 50px;
+}
+
+.sections {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+section {
+  width: 50%;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.product {
+  background: white;
+  border: 1px solid black;
+  padding: 20px;
+  width: 200px;
+}
+
+#count1, #count2 {
+  font-size: 50px;
+}
+
+button {
+  padding: 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: lightgray;
+}
